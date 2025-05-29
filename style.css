@@ -1302,3 +1302,45 @@ button:hover {
     text-decoration: none;
     cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+    .header,
+    .nav ul,
+    .masthead,
+    .classes-section,
+    .shop-items,
+    .suggested-products-container {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .masthead-text {
+        font-size: 20px !important;
+        text-align: center;
+    }
+
+    .video-section {
+        flex-direction: column;
+    }
+
+    .video-container,
+    .video-text,
+    .classes-content,
+    .shop-item,
+    .suggested-product {
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+
+    .cart-table th,
+    .cart-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .checkout-btn,
+    .feedback-btn {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+}
